@@ -1,0 +1,13 @@
+body {
+    background-image: url(https://i.stack.imgur.com/jGlzr.png);
+    
+}
+h1 { 
+    text-align: center;
+}
+h4 {
+    
+    text-align: center;
+    text-decoration: wavy;
+    text-transform: capitalize;
+}
