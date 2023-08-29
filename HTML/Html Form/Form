@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> This is a practic html form </title>
+    
+    </head>
+    <body>
+        <h1> Registration Form </h1>
+        <h3> Fill the form carefully </h3>
+        <form>
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="fname" value=""></input><br>
+            <label for="lname">Last Name:</label><br>
+            <input type="text" id="lname" name="lname" value=""></input><br>
+            <label for="email">Enter Your Email id:</label><br>
+            <input type="text" id="email" name="email" value=""></input><br>
+            <label for="Cmail"> Confirm your E-mail again: </label><br>
+            <input type="text" id="Cmail" name="Cmail" value=""></input><br>
+            <label for="contact">Enter your Phone/Whatsapp:</label><br>
+            <input type="number" id="contact" name="contact" value=""><br>
+            <label for="dob">Date of Birth :</label><br>
+            <input type="text" id="dob" name="dob" value=""><br>
+            <label for="Age">Enter you Age:(Only Numbers Allowed ) </label><br>
+            <input type="number" id="Age" name="Age" value=""> <br>
+            <p1>Please Seclect your Gender :</p1> <br>
+            <input type="radio" id="Male" name="Gender" value="Male"></input>
+            <label for="Male">Male</label><br>
+            <input type="radio" id="Female" name="Gender" value="Female"></input>
+            <label for="Female">Female</label><br> 
+            <label for="Resume"> Upload your Resume :</label><br> <br>
+            <input type="file" id="Resume" name="Resume" value="" ></input> <br> <br>
+
+            <input type="submit" value="submit" > </input><br>
+        </form>
+    </body>
+</html>
